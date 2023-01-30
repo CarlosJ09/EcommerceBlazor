@@ -5,7 +5,7 @@ public class ShopOnlineDbContext : DbContext
 {
     public ShopOnlineDbContext(DbContextOptions<ShopOnlineDbContext> options) : base(options)
     {
-
+        
     }
 
     protected override void OnModelCreating(ModelBuilder modelBuilder)
